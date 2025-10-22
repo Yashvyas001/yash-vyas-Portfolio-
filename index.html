@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Vyas Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <h1 class="logo">Yash Vyas</h1>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h2>Hi, I'm Yash Vyas</h2>
+
+    <!-- Dynamic blinking roles -->
+    <p class="typewriter" id="roles"></p>
+
+    <!-- See My Work Button -->
+    <a href="#projects" class="btn">See My Work</a>
+
+    <!-- Your Photo & Contact Info -->
+    <div class="hero-contact">
+      <img src="yash.jpg.jpeg" alt="Yash Vyas">
+      <p>📍 Jaipur, Rajasthan, India</p>
+      <p>📱 +91 8005748561</p>
+      <p> v77vyas@gmail.com</p>
+    </div>
+
+    <!-- Floating icons -->
+    <div class="floating-icons">
+      <span>#</span>
+      <span>⚡</span>
+      <span>🚀</span>
+      <span>✨</span>
+      <span>🤖</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.fbxq2heKeCV_wqFvLJe_aQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="Yash Vyas">
+      <p>
+        I am a passionate web developer and AI enthusiast. I love creating beautiful, responsive websites with modern
+        UI/UX.
+        I also enjoy working on AI projects and hackathons.
+      </p>
+    </div>
+    <h3>Skills</h3>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>AI / ML</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A modern portfolio to showcase my projects and skills.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>AI Help Bot</h3>
+        <p>An AI-based chatbot for knowledge retrieval projects.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Hackathon Project</h3>
+        <p>AI-based Drop-out Prediction System for SIH.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="https://mail.google.com/mail/u/0/?pli=1#inbox">v77vyas@gmail.com</a></p>
+    <div class="social-links">
+      <a href="https://github.com/Yashvyas001">GitHub</a>
+      <a href="https://www.linkedin.com/in/yash-vyas-0576a7313">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/yash-vyas-0576a7313">Twitter</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Yash Vyas. All rights reserved.
+  </footer>
+
+  <!--<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>-->
+  <script src="script.js"></script>
+  <script>
+    particlesJS('hero', {
+      "particles": {
+        "number": { "value": 80 },
+        "size": { "value": 3 },
+        "move": { "speed": 2 },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+      }
+    });
+  </script>
+</body>
+
+</html>
